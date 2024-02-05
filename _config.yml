@@ -2,8 +2,7 @@
 title: 130lab
 description: A GitHub Pages site for 130lab
 # Theme settings
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 # Build settings
-markdown: kramdown
-
+#markdown: kramdown
 categories: [130lab, default, tech, pcie, cxl]
