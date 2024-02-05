@@ -12,7 +12,6 @@ To get started, let's write a simple "Hello, World!" program in your favorite pr
 
 # All Posts
 
-
 {% for post in site.posts %}
 - ({{ post.date | date: "%B %d, %Y" }}) [{{ post.title }}]({{ post.url }})
 {% endfor %}
