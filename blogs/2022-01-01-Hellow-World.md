@@ -1,6 +1,9 @@
 ---
-title: Hello World
+title: Hello World for a world
 category: [default, cxl]
+tags:
+- cxl
+- hello world
 ---
 
 # Hello World!
