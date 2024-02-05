@@ -4,5 +4,10 @@ description: A GitHub Pages site for 130lab
 # Theme settings
 theme: jekyll-theme-minimal
 # Build settings
-#markdown: kramdown
-categories: [130lab, default, tech, pcie, cxl]
+
+markdown: kramdown
+
+collections:
+  blogs:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
