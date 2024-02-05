@@ -1,3 +1,8 @@
+---
+title: Hello World
+category: [default, cxl]
+---
+
 # Hello World!
 
 Welcome to my first blog post! In this post, I will be sharing a simple C program that prints "Hello, World!".
