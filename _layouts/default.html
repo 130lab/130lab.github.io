@@ -10,7 +10,6 @@
 
         body {
             display: grid;
-            width: 100%;
             grid-template-columns: 200px 1fr;
             grid-template-rows: auto 3fr auto; /* Updated: changed 1fr to 3fr */
             grid-template-areas:
@@ -18,6 +17,7 @@
                 "nav content"
                 "footer footer";
             min-height: 100vh;
+            max-width: 100%;
             margin: 0;
             padding: 0;
         }
