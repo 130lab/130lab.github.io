@@ -57,11 +57,9 @@
             <h1>{{ site.title }}</h1> </a>
         {{ site.description }}
     </header>
-    <nav>
-        <ul>
-        <a href="/">{{ site.title }}</a>
-        </ul>          
-    </nav>
+
+    {% include navi.html %}
+
     <main>
         {{ content }}    
     </main>
