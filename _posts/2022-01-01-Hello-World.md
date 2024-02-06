@@ -1,6 +1,6 @@
 ---
-title: Hello World for a world
-author: Leo
+title: Hello World for C
+author: LEO
 abstract: hi is a abstract
 tags:
 - cxl
