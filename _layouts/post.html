@@ -12,7 +12,8 @@ layout: default
 -->
 <div>
     <small> 
-        <strong>Summary:</strong> {{ page.abstract }} or {{ page.excerpt}}
+        <strong>Summary:</strong> 
+        {{ page.abstract | default: page.excerpt }} 
     </small>    
 </div>
 
