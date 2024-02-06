@@ -1,12 +1,13 @@
 ---
 title: Hello World for a world
-category: [default, cxl]
+author: Leo
+abstract: hi is a abstract
 tags:
 - cxl
 - hello world
 ---
 
-# Hello World!
+## Chappter ONe
 
 Welcome to my first blog post! In this post, I will be sharing a simple C program that prints "Hello, World!".
 

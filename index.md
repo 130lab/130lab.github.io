@@ -9,5 +9,5 @@ Hello and welcome to 130lab! This is a place where you can learn and explore var
 # Blogs
 
 {% for post in site.posts %}
-- {{ post.date | date: "%Y %B %d" }} [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y %B %d" }})
 {% endfor %}
