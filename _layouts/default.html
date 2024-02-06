@@ -46,37 +46,21 @@
     <header>
         <a href="/" style="color: #fff; text-decoration: none;">
             <h1>{{ site.title }}</h1> </a>
+
+        {{ site.description }}
     </header>
     <nav>
         <ul>
         <a href="/">{{ site.title }}</a>
-        </ul>
-
-        {{ site.description }}
-          
-        <ul>
-            {% for tag in page.tags %}
-            {{ tag }}
-            {% endfor %}
-        </ul>
-
-    <!-- Add your navigation content here -->
+        </ul>          
     </nav>
     <main>
         <div>
-            <a href="/">{{ site.title }}</a> > 
-            {{ page.date | date: "%Y %B %d" }}
+            <a href="/">{{ site.title }}</a> > {{ page.title }}
         </div>
 
-        <div>
-            <h2 style="color: #333;"> {{ page.title}} </h2> 
-            {{ page.author }}
-            <br>
-            start with content
-            <div>
-                {{ content }}    
-            </div>
-        </div>
+        {{ content }}    
+
     </main>
     <footer>
         <p>&copy; 2024 130lab. All rights reserved.</p>
