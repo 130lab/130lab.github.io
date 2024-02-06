@@ -63,14 +63,20 @@
     <!-- Add your navigation content here -->
     </nav>
     <main>
-        <a href="/">{{ site.title }}</a> > {{ page.date | date: "%Y %B %d" }}
-        <br>
-        <h2 style="color: #333;"> {{ page.title}} </h2> 
-        {{ page.author }}
-        <br>
-        start with content
-        <br>
-        {{ page.content }}
+        <div>
+            <a href="/">{{ site.title }}</a> > 
+            {{ page.date | date: "%Y %B %d" }}
+        </div>
+
+        <div>
+            <h2 style="color: #333;"> {{ page.title}} </h2> 
+            {{ page.author }}
+            <br>
+            start with content
+            <div>
+                {{ page.content }}    
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 130lab. All rights reserved.</p>
