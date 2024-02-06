@@ -6,9 +6,10 @@ title: Home
 
 Hello and welcome to 130lab! This is a place where you can learn and explore various programming concepts and technologies.
 
+
 # Blogs
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y %B %d" }})
-{{ posts.abstract }}
+    {{ posts.abstract }}
 {% endfor %}
