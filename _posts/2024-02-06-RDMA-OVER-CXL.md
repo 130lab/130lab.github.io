@@ -5,8 +5,7 @@ abstract: With the rapid development of AI technology, the demand for AI network
 
 ---
 
-![banner cxl rdma good](banner-cxl-rdma.png)
-
+![alt text](image.png)
 With the rapid advancement of large models and artificial intelligence applications, there is a growing interest in high-speed, low-latency network technologies in the industry. To enhance communication capabilities in AI computing, RDMA technology has been consistently demonstrating its advantages, becoming a crucial protocol in the field of AI network transmission and driving the latest trends in the industry.
 
 ## 1）Introduction to RDMA Technology:
