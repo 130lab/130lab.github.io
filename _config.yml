@@ -2,7 +2,8 @@
 title: 130lab
 description: A GitHub Pages site for 130lab
 # Theme settings
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 # Build settings
 
 markdown: kramdown
@@ -13,3 +14,9 @@ collections:
   blogs:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+
+
+collections:
+  posts:
+    output: true
+    permalink: /blogs/:name
