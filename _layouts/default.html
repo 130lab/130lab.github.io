@@ -11,7 +11,7 @@
         body {
             display: grid;
             grid-template-columns: 1fr 300px;
-            grid-template-rows: 70px 3fr 30px; /* Updated: changed 1fr to 3fr */
+            grid-template-rows: 70px 3fr 50px; /* Updated: changed 1fr to 3fr */
             grid-template-areas:
                 "header header"
                 "content nav"
@@ -26,6 +26,7 @@
             grid-area: header;
             background-color: #157878;
             color: #fff;
+            padding: 0;
         }
 
         nav {
@@ -43,6 +44,7 @@
             grid-area: footer;
             background-color: #157878;
             color: #fff;
+            padding: 0;
         }
     </style>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
